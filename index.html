@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Raleway:wght@200&display=swap" rel="stylesheet">
+    <title>Meu Portfólio</title>
+</head>
+<body>
+    <header>
+        <div class="left">
+            <h1>William Vieira</h1>
+        </div>
+        <div class="right">
+            <a href="#sobre-mim">Sobre mim</a>
+            <a href="#formacao">Formação</a>
+            <a href="#projetos">Projetos</a>
+            <a href="javascript:void(0);" id="link-contato">Contato</a>
+        </div>
+    </header>
+
+    <main id="principal">
+        <div class="container">
+            <div class="left-div">
+                <div class="text-container">
+                    <p class="name">Olá, meu nome é William Vieira,</p>
+                    <p class="develop">Sou um desenvolvedor</p>
+                    <p class="stack">Front-end.</p>
+                </div>
+            </div>
+
+
+            <button id="botao-tela-contato">Contato</button>
+                    <div id="tela-contato" class="tela-contato">
+                        <div id="tela-contato-content" class="tela-contato-content">
+                            <span id="fechar-tela-contato" class="close">&times;</span>
+                            <h2 id="text-contato">Entre em Contato</h2>
+                            <form id="contact-form">
+                                <label for="nome">Nome:</label>
+                                <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+                                <br>
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+                                <br>
+                                <label for="mensagem">Mensagem:</label>
+                                <textarea id="mensagem" name="mensagem" rows="4" placeholder="Digite sua mensagem" required></textarea>
+                                <div id="feedback-message"></div>
+                                <br>
+                                <input type="submit" value="Enviar">
+                            </form>
+                        </div>
+                    </div>
+
+
+            <div class="right-div">
+                <img src="imagens/imagemApresentacao.png">
+            </div>
+        </div>
+
+        <section id="sobre-mim">
+            <h2 class="titulo-section">SOBRE MIM</h2>
+            <p>Olá, meu nome é William Vieira, um apaixonado por tecnologia e um entusiasta do desenvolvimento web. Com 21 anos de idade, estou determinado a seguir minha paixão e me tornar um desenvolvedor Front-end de sucesso.</p><br>
+            <p>Minha jornada profissional começou quando entrei para o programa Jovem Aprendiz e comecei a trabalhar no setor atacarejo, onde pude aprender sobre o funcionamento do mundo corporativo. No entanto, minha verdadeira paixão sempre foi a criação de experiências na web. Desde então, tenho mergulhado de cabeça no mundo do desenvolvimento Front-end.</p><br>
+            <p>Minhas habilidades incluem HTML5, CSS3 e JavaScript, e estou constantemente aprimorando meu conhecimento para acompanhar as tendências em constante evolução da web. Tenho experiência na criação de sites responsivos e acredito que uma interface atraente e fácil de usar é essencial para uma experiência online positiva.</p><br>
+            <p>Fora do mundo da programação, adoro passar meu tempo livre explorando novas tecnologias, aprendendo idiomas e me desafiando com novos projetos criativos. Meu objetivo é criar soluções web impressionantes que melhorem a vida das pessoas e proporcionem uma experiência excepcional na web.</p><br>
+        </section>
+
+
+        <section id="tecnologias">
+            <h2 class="titulo-tecnologias">MINHA STACK</h2>
+
+            <div class="portfolio" id="html-background">
+                <div class="portfolio_hover"></div>
+                <h1 class="title">HTML5</h1>
+                <p class="paragraph">HTML</p>
+                <img src="imagens/html-logo.png">
+            </div>
+            <div class="portfolio" id="css-background">
+                <div class="portfolio_hover"></div>
+                <h1 class="title">CSS3</h1>
+                <p class="paragraph">CSS</p>
+                <img src="imagens/css-logo.png">
+            </div>
+            <div class="portfolio" id="js-background">
+                <div class="portfolio_hover"></div>
+                <h1 class="title">JavaScript</h1>
+                <p class="paragraph">JavaScript</p>
+                <img src="imagens/js-logo.png">
+            </div>
+        </section>
+
+
+        <section id="formacao">
+            <h2 class="titulo-formacao">FORMAÇÃO</h2>
+        
+            <div class="formacao-item">
+                <h3 class="sub-titulo">Faculdade</h3>
+                <p class="descricao-formacao">Uninter</p>
+                <p class="descricao-formacao">Curso: Análise e desenvolvimento de sistemas</p>
+                <p class="descricao-formacao">Ano de Início: 2023</p>
+                <p class="descricao-formacao">Ano de Conclusão: 2025</p>
+            </div>
+        
+            <div class="formacao-item">
+                <h3 class="sub-titulo">Cursos</h3>
+                <p class="descricao-formacao">Desenvolvedor fullstack JavaScript</p>
+                <p class="descricao-formacao">Instituição: OneBitCode</p>
+            </div>
+        
+            <div class="formacao-item">
+                <h3 class="sub-titulo">Idiomas</h3>
+                <p class="descricao-formacao">Ingles Intermediário</p>
+            </div>
+        </section>
+
+        <section id="projetos">
+            <h1>PROJETOS</h1>
+            <div class="projeto-container">
+                <h3>>> Quiz Supermercado Nordestão <<</h3>
+                <p class="descricao-projeto">Um protótipo de jogo de quiz que desenvolvi para uma apresentação no curso que faço como parte do programa Jovem Aprendiz. O quiz serviu como complemento à apresentação, ajudando a fixar o conhecimento adquirido durante o trabalho.</p>
+            </div>
+            
+            <a href="https://williamviee.github.io/Quiz-Conhecendo-o-Nordestao/"><button class="botao-projeto">Ver projeto</button></a>
+        </section>
+        
+        <script src="script.js"></script>
+
+    </div>
+    </main>
+    
+    <footer>
+        &copy; 2023 William Vieira
+    </footer>
+</body>
+</html>
